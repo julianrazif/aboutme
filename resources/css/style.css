@@ -1,0 +1,203 @@
+/* GLOBAL STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff; /* default background color => putih */
+  color: #555; /* default text color => nice grey */
+  font-family: "Lato", "Arial", sans-serif; /* font family lato atau arial atau sans-serif => lihat google font */
+  font-weight: 300; /* default font-weight => 300 => lihat google font */
+  font-size: 20px; /* default font-size => 20px */
+  text-rendering: optimizeLegibility; /* ketika text ditampilkan ke browser akan terlihat halus */
+}
+
+/* HEADER */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/hero.jpg); /* menggelapkan background-image dengan gradasi warna */
+  height: 100vh; /* untuk tinggi background-image 100% dari viewport*/
+  background-size: cover; /* memposisikan background-image terlihat penuh */
+  background-position: center; /* memposisikan background-image ditengah browser */
+}
+
+.hero-text-box {
+  /*
+   * untuk membuat posisi element berada di tengah vertical
+   */
+  position: absolute; /* set posisi element absolute */
+  width: 1140px; /* ukuran lebar modern browser */
+  top: 40%; /* set posisi element absolut 40% dari atas */
+  left: 40%; /* set posisi element absolut 40% dari kiri */
+  transform: translate(
+    -45%,
+    -60%
+  ); /* transform posisi element ditambah dari posisi aslinya */
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3 {
+  font-weight: 300; /* memakai font-weight => 300 */
+  text-transform: uppercase; /* transform text menjadi uppercase */
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff; /* set font color => white */
+  font-size: 240%; /* set font-size relative from default font-size (240% * 20px) */
+  text-transform: uppercase; /* merubah text ke uppercase */
+  /*
+   * membuat text dapat mudah dibaca
+   */
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* PARAGRAPH */
+.long-text {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+/* BUTTON */
+.hero-btn:link,
+.hero-btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #2980b9;
+  color: #2980b9;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+/* LAYOUT */
+.section {
+  clear: both;
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  zoom: 1;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .col {
+    /*margin: 1% 0 1% 0%;*/
+    margin: 0;
+  }
+}
+
+.box-2 {
+  width: 49.2%;
+}
+
+@media only screen and (max-width: 480px) {
+  .box-2 {
+    /*width: 49.2%*/
+    width: 100%;
+  }
+}
+
+.box-4 {
+  width: 23.8%;
+}
+
+@media only screen and (max-width: 480px) {
+  .box-4 {
+    /*width: 23.8%*/
+    width: 100%;
+  }
+}
+
+.box {
+  padding: 1%;
+}
