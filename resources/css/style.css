@@ -1,4 +1,3 @@
-/* GLOBAL STYLE */
 * {
   margin: 0;
   padding: 0;
@@ -6,54 +5,46 @@
 }
 
 html {
-  background-color: #fff; /* default background color => putih */
-  color: #555; /* default text color => nice grey */
-  font-family: "Lato", "Arial", sans-serif; /* font family lato atau arial atau sans-serif => lihat google font */
-  font-weight: 300; /* default font-weight => 300 => lihat google font */
-  font-size: 20px; /* default font-size => 20px */
-  text-rendering: optimizeLegibility; /* ketika text ditampilkan ke browser akan terlihat halus */
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 
-/* HEADER */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/hero.jpg); /* menggelapkan background-image dengan gradasi warna */
-  height: 100vh; /* untuk tinggi background-image 100% dari viewport*/
-  background-size: cover; /* memposisikan background-image terlihat penuh */
-  background-position: center; /* memposisikan background-image ditengah browser */
+    url(img/hero.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-text-box {
-  /*
-   * untuk membuat posisi element berada di tengah vertical
-   */
-  position: absolute; /* set posisi element absolute */
-  width: 1140px; /* ukuran lebar modern browser */
-  top: 40%; /* set posisi element absolut 40% dari atas */
-  left: 40%; /* set posisi element absolut 40% dari kiri */
+  position: absolute;
+  width: 1140px;
+  top: 40%;
+  left: 40%;
   transform: translate(
     -45%,
     -60%
-  ); /* transform posisi element ditambah dari posisi aslinya */
+  );
 }
 
-/* HEADINGS */
 h1,
 h2,
 h3 {
-  font-weight: 300; /* memakai font-weight => 300 */
-  text-transform: uppercase; /* transform text menjadi uppercase */
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #fff; /* set font color => white */
-  font-size: 240%; /* set font-size relative from default font-size (240% * 20px) */
-  text-transform: uppercase; /* merubah text ke uppercase */
-  /*
-   * membuat text dapat mudah dibaca
-   */
+  color: #fff;
+  font-size: 240%;
+  text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 4px;
 }
@@ -77,11 +68,9 @@ h2:after {
   background-color: #e67e22;
   content: " ";
   width: 100px;
-  margin: 0 auto;
-  margin-top: 30px;
+  margin: 30px auto 0;
 }
 
-/* PARAGRAPH */
 .long-text {
   line-height: 145%;
   width: 70%;
@@ -94,7 +83,6 @@ h2:after {
   line-height: 145%;
 }
 
-/* BUTTON */
 .hero-btn:link,
 .hero-btn:visited {
   display: inline-block;
@@ -135,10 +123,9 @@ h2:after {
   color: #fff;
 }
 
-/* LAYOUT */
 .section {
   clear: both;
-  padding: 0px;
+  padding: 0;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -171,7 +158,6 @@ h2:after {
 
 @media only screen and (max-width: 480px) {
   .col {
-    /*margin: 1% 0 1% 0%;*/
     margin: 0;
   }
 }
@@ -182,7 +168,6 @@ h2:after {
 
 @media only screen and (max-width: 480px) {
   .box-2 {
-    /*width: 49.2%*/
     width: 100%;
   }
 }
@@ -193,7 +178,6 @@ h2:after {
 
 @media only screen and (max-width: 480px) {
   .box-4 {
-    /*width: 23.8%*/
     width: 100%;
   }
 }
