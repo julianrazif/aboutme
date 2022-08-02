@@ -1,2 +1,2 @@
-# aboutme-7ro.pages.dev
-simple website
+# https://c7172335.aboutme-7ro.pages.dev/
+my portfolio
