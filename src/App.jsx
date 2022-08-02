@@ -11,6 +11,7 @@ export default function App() {
             <a href="#education" className="inline-block text-center w-full mb-1 md:mb-0 md:w-auto p-3 px-8 bg-[#e67e22] text-white rounded-full text-xl hover:opacity-80">My Story</a>
             <a href="#summary" className="inline-block text-center w-full mb-1 md:mb-0 md:w-auto p-3 px-8 border border-2 border-[#2980b9] text-[#2980b9] rounded-full text-xl hover:bg-[#e67e22] hover:text-white">My Projects</a>
             <a href="#career-summary" className="inline-block text-center w-full mb-1 md:mb-0 md:w-auto p-3 px-8 border border-2 border-[#2980b9] text-[#2980b9] rounded-full text-xl hover:bg-[#e67e22] hover:text-white">Career Summary</a>
+            <a href="/assets/Julian Razif Figaro.pdf" className="inline-block text-center w-full mb-1 md:mb-0 md:w-auto p-3 px-8 border border-2 border-[#2980b9] text-[#2980b9] rounded-full text-xl hover:bg-[#e67e22] hover:text-white">Download</a>
           </div>
         </div>
       </div>
