@@ -5,9 +5,8 @@ export default function App() {
         id="hero"
         className="bg-red-200 min-h-[100vh] flex justify-center items-center"
         style={{ backgroundImage: 'url(/assets/bg.jpg)' }}>
-        <div className="p-3">
-          <h1 className="text-6xl text-[#636363] font-light">I'AM</h1>
-          <h1 className="text-6xl text-[#636363] font-light">JULIAN RAZIF FIGARO</h1>
+        <div className="hero-text-box">
+          <h1 className="text-[#636363] font-light">I'am<br />Julian Razif Figaro</h1>
           <div className="mt-4 md:flex md:space-x-3">
             <a href="#education" className="inline-block text-center w-full mb-1 md:mb-0 md:w-auto p-3 px-8 bg-[#e67e22] text-white rounded-full text-xl hover:opacity-80">My Story</a>
             <a href="#summary" className="inline-block text-center w-full mb-1 md:mb-0 md:w-auto p-3 px-8 border border-2 border-[#2980b9] text-[#2980b9] rounded-full text-xl hover:bg-[#e67e22] hover:text-white">My Projects</a>
