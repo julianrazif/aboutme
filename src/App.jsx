@@ -33,7 +33,7 @@ export default function App() {
                   </ul>
                 </div>
                 <div className="w-full md:w-9/12">
-                  <p className="mt-4 md:mt-0 text-xl text-center md:text-left">Proven experience developing customer-focused websites using fullStack JavaScript and Java. Build products for web, and mobile app users over 3+ years. meeting the highest standards for web design, user experience, best practices, and speed. Designed and developed web applications across multiple APIs, third-party integrations, and databases.</p>
+                  <p className="mt-4 md:mt-0 text-xl text-center md:text-left">Proven experience developing customer-focused websites using fullStack Java and JavaScript. Build products for web, and mobile app users over 3+ years. meeting the highest standards for web design, user experience, best practices, and speed. Designed and developed web applications across multiple APIs, third-party integrations, and databases.</p>
                 </div>
               </div>
             </div>
@@ -217,7 +217,7 @@ export default function App() {
                     <ul className="mt-4 text-center md:text-left">
                       <li>JavaScript more than 1+ years of experiences, Java more than 3+ years of experiences.</li>
                     </ul>
-                    <h4 className="text-sm mt-4 text-center md:text-left">JavaScript, Java.</h4>
+                    <h4 className="text-sm mt-4 text-center md:text-left">Java, JavaScript.</h4>
                   </div>
                 </div>
                 {/* card */}
