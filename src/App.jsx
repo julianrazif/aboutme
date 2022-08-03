@@ -229,7 +229,7 @@ export default function App() {
                     <ul className="mt-4 text-center md:text-left">
                       <li>I have developed many applications with many frameworks, libraries, and using many systems.</li>
                     </ul>
-                    <h4 className="text-sm mt-4 text-center md:text-left">React, React Native, Vue, NodeJS, Express, Sequelize, GraphQL, Apollo Server, Socket.io, Java Spring Boot, Kafka, Redis, MongoDB, PostgreSQL, MSSQL, Intellij, Maven, ServerSentEvent, WebSocket, Git, Jenkins, Docker, Helm, Kubernetes, Rancher, MVC, Stream, SPA, RestAPI, Microservices, DevOps.</h4>
+                    <h4 className="text-sm mt-4 text-center md:text-left">React, React Native, Vue, NodeJS, Express, Sequelize, GraphQL, Apollo Server, Socket.io, Java Spring Boot, Kafka, Redis, MongoDB, PostgreSQL, Intellij, Maven, ServerSentEvent, WebSocket, Git, Jenkins, Docker, Helm, Kubernetes, Rancher, MVC, Stream, SPA, RestAPI, Microservices, DevOps.</h4>
                   </div>
                 </div>
               </div>
