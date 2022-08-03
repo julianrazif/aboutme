@@ -104,10 +104,10 @@ export default function App() {
                     <div className="p-3">
                       <div className="block">
                         <h3 className="text-center md:text-left">HACKTIV8 INDONESIA</h3>
-                        <h4 className="text-sm text-center md:text-left">AUG. 2020 TO NOV. 2020</h4>
+                        <h4 className="text-sm text-center md:text-left">AUG 2020 TO NOV 2020</h4>
                       </div>
                       <ul className="mt-4 text-center md:text-left">
-                        <li>Enrolled since Aug. 2020 to Nov. 2020.</li>
+                        <li>Enrolled since Aug 2020 to Nov 2020.</li>
                         <li>Learn full-stack JavaScript web development.</li>
                       </ul>
                       <h4 className="text-sm mt-4 text-center md:text-left">Immersive full stack JavaScript.</h4>
@@ -120,7 +120,7 @@ export default function App() {
                     <div className="p-3">
                       <div className="block">
                         <h3 className="text-center md:text-left">Politeknik Universitas Andalas (PNP)</h3>
-                        <h4 className="text-sm text-center md:text-left">AUG. 2020 TO NOV. 2020</h4>
+                        <h4 className="text-sm text-center md:text-left">2017 TO 2011</h4>
                       </div>
                       <ul className="mt-4 text-center md:text-left">
                         <li>Diploma, Computer Engineering GPA - 3.05.</li>
@@ -144,7 +144,7 @@ export default function App() {
                   <div className="p-3">
                     <div className="block">
                       <h3 className="text-center md:text-left break-words">Senior Developer</h3>
-                      <h4 className="text-sm text-center md:text-left">Dec 2020 to Aug 2022</h4>
+                      <h4 className="text-sm text-center md:text-left">DEC 2020 TO AUG 2022</h4>
                       <h4 className="text-sm text-center md:text-left">PT. Trix Studio Games</h4>
                     </div>
                     <ul className="mt-4 text-center md:text-left">
@@ -157,7 +157,7 @@ export default function App() {
                   <div className="p-3">
                     <div className="block">
                       <h3 className="text-center md:text-left break-words">IT & System Developer</h3>
-                      <h4 className="text-sm text-center md:text-left">Feb 2020 to Jun 2020</h4>
+                      <h4 className="text-sm text-center md:text-left">FEB 2020 TO JUN 2020</h4>
                       <h4 className="text-sm text-center md:text-left">PT. CKD Trading Indonesia</h4>
                     </div>
                     <ul className="mt-4 text-center md:text-left">
@@ -173,7 +173,7 @@ export default function App() {
                   <div className="p-3">
                     <div className="block">
                       <h3 className="text-center md:text-left">IT Supervisor</h3>
-                      <h4 className="text-sm text-center md:text-left">Jun. 2019 to Dec 2019</h4>
+                      <h4 className="text-sm text-center md:text-left">JUN 2019 TO DEC 2019</h4>
                       <h4 className="text-sm text-center md:text-left">PT. Kaneka Foods Indonesia</h4>
                     </div>
                     <ul className="mt-4 text-center md:text-left">
@@ -188,7 +188,7 @@ export default function App() {
                   <div className="p-3">
                     <div className="block">
                       <h3 className="text-center md:text-left">System Engineering</h3>
-                      <h4 className="text-sm text-center md:text-left">Sep. 2014 to Feb 2018</h4>
+                      <h4 className="text-sm text-center md:text-left">SEP 2014 TO FEB 2018</h4>
                       <h4 className="text-sm text-center md:text-left">PT. Berlian Sistem Informasi</h4>
                     </div>
                     <ul className="mt-4 text-center md:text-left">
