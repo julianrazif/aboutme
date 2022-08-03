@@ -224,7 +224,7 @@ export default function App() {
                 <div className="mb-8 md:mr-5">
                   <div className="p-3">
                     <div className="block">
-                      <h3 className="text-center md:text-left break-words">Frameworks/Libraries/Systems</h3>
+                      <h3 className="text-center md:text-left break-words">Tech Stacks</h3>
                     </div>
                     <ul className="mt-4 text-center md:text-left">
                       <li>I have developed many applications with many frameworks, libraries, and using many systems.</li>
